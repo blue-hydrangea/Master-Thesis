@@ -1,19 +1,5 @@
 #!/bin/bash
 
-#----------------------------------------------------------------------------------
-
-# created by Sabrina Beer (MT student at the SSG; Wilhelm Hagg)
-
-# step (1) obtains pre-extracted MFCC features, shuffles them, takes a subsample and prepares the subsample for clustering
-# step (2) performs k-means clustering (input: feature file and number of clusters; output: cluster centroids)
-# step (3) cleans and formats the cluster centroids
-# step (4) performs vector quantization (input: number of clusters, feature file, cluster centroids, word to be classified; output: cluster IDs)
-# step (5) obtains the lexicon with cluster ID sequences
-
-# ex. usage: clustering/cluster-feats.sh 26 clustering/words/eine.mfcc eine
-
-#-----------------------------------------------------------------------------------
-
 # 1.) this obtains the MFCC features and prepares a random subsample for clustering. Comment this out for all clustering runs but the first one!
 
 clustering/prepare-feats.sh
