@@ -1,6 +1,4 @@
 #!/bin/bash
-# created by Sabrina Beer (MT student at the SSG; Wilhelm Hagg)
-# this script copies the pre-extracted MFCC features, inserts commas, removes parentheses, shuffles and extracts a random subset of 1,305,229 features (amount of features chosen to be equal to the amount of features in Timit)
 
 . ./path.sh
 
