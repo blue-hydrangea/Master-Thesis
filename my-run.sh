@@ -12,15 +12,6 @@
 # http://repository.cmu.edu/cgi/viewcontent.cgi?article=2768&context=compsci
 #
 
-#===============================================================================
-
-# SB: copied by Sabrina Beer on 01.03.2018 (master student)
-# SB: last modified: 05.03.2018 
-# SB: this script is modified in so far that it does not make use of "$train_cmd" but specifies all parameters explicitly. This seems more transparent and readable for the beginning, but the final solution should definitely make use of a appropriate cmd specifications
-# SB: a more minimal script that is almost identical to the original and that can be run on SGE can be found in timit-sge
-
-#===============================================================================
-
 . ./cmd.sh
 [ -f path.sh ] && . ./path.sh
 set -e
