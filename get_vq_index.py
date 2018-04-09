@@ -1,6 +1,3 @@
-# created by Sabrina Beer (MT student at the SSG; Wilhelm Hagg)
-# this script takes as input a file with observation vectors and a file with code vectors and returns the cluster ID for each observation vector
-
 from numpy import array
 from ast import literal_eval
 from scipy.cluster.vq import vq
