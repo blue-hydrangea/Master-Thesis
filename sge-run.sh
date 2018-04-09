@@ -12,16 +12,6 @@
 # http://repository.cmu.edu/cgi/viewcontent.cgi?article=2768&context=compsci
 #
 
-#===============================================================================
-
-# SB: copied by Sabrina Beer on 01.03.2018 (master student)
-# SB: last modified: 07.03.2018 (everything finished, results in SB_Results.txt)
-# SB: this script is closer to the original (the original lines are commented out) and can be run on SGE
-# SB: "--max-jobs-run 6" was added manually, feats_nj was changed from 10 to 4
-# SB: upon advice from Marc, all results were re-scored with a maximum language model weight of 20
-
-#===============================================================================
-
 . ./cmd.sh
 [ -f path.sh ] && . ./path.sh
 set -e
