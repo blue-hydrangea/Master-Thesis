@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# created by Sabrina Beer (MT student at the SSG; Wilhelm Hagg)
-# date of origin: 15.03.2018
-# this script trains an ASR system on the German corpus from the TU Darmstadt
-
-#-----------------------------------------------------------------------------------------------------------------------
-
 . ./path.sh
 . ./cmd.sh
 . ../../../env.sh
