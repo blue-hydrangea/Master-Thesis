@@ -1,7 +1,3 @@
-# created by Sabrina Beer (MT student at the SSG; Wilhelm Hagg)
-# this script imports the MFCC features and obtains k clusters
-# usage: python do_k_means.py king_1mil_shuffled_feats.txt cluster_nr
-
 from numpy import array
 from ast import literal_eval
 from scipy.cluster.vq import vq, kmeans, whiten
