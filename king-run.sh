@@ -1,12 +1,5 @@
 #!/bin/bash
 
-# created by Sabrina Beer (MT student at the SSG; Wilhelm Hagg)
-# date of origin: 21.03.2018
-# this script trains an ASR system on the German King-ASR-182 corpus
-# !!! IMPORTANT: in contrast to the identical run.sh in ../../king/s5, this script uses all-lower-case data. This is done by local/split_data.sh and local/prepare_lexicon.sh, which are modified from those in ../../king/s5/local !!!
-
-#-----------------------------------------------------------------------------------------------------------------------
-
 . ./path.sh
 . ./cmd.sh
 . ../../../tools/env.sh
