@@ -12,15 +12,6 @@
 # http://repository.cmu.edu/cgi/viewcontent.cgi?article=2768&context=compsci
 #
 
-#===============================================================================
-
-# SB: copied by Sabrina Beer on 07.03.2018 (master student)
-# SB: last modified: 12.03.2018
-# SB: this script is almost identical to run.sh in timit-sge, but is based on words instead of phones
-# SB: the lexicon is taken from the timit distribution and the phone set is based on this lexicon!
-
-#===============================================================================
-
 . ./cmd.sh
 [ -f path.sh ] && . ./path.sh
 set -e
