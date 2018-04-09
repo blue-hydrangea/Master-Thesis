@@ -12,15 +12,6 @@
 # http://repository.cmu.edu/cgi/viewcontent.cgi?article=2768&context=compsci
 #
 
-#===============================================================================
-
-# SB: copied by Sabrina Beer on 16.03.2018 (master student)
-# SB: last modified: 21.03.2018 (trained tri3)
-# SB: this script trains a word-based ASR system on the Timit corpus using another LM
-# SB: the lexicon is taken from the timit distribution and the phone set is based on this lexicon
-
-#===============================================================================
-
 . ./cmd.sh
 [ -f path.sh ] && . ./path.sh
 set -e
